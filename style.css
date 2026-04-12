@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+/* Headings */
+.head {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar-brand {
+    color: #2563eb !important;
+}
+
+/* Button */
+.btn-primary {
+    background-color: #2563eb;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Cards */
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+img {
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Feature Icons */
+.feature-box i {
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+}
